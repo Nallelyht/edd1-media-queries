@@ -1,0 +1,139 @@
+body{
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: #0b274f;
+  font-family: 'Pacifico', cursive;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.img-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image{
+
+  width: 100%;
+  height: auto;
+}
+.text{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  color: #235070;
+  background-color:rgba(98,150,140,0.38);
+  text-align: center;
+}
+/*responsive*/
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: lightblue;
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        background-color: steelblue;
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: deepskyblue;
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: cadetblue;
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 320px) {
+    body {
+        background-color: skyblue;
+        font-size:  1vw;
+    }
+}
+/*clases reutilizables*/
+.container{
+  width: 100%;
+  margin: 0px auto;
+}
+
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+[class*="col-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left;
+}
+
+.col-1 {
+  /* (1/12) x 100% */
+  width: 8.333333%;
+}
+
+.col-2 {
+  /* (2/12) x 100% */
+  width: 16.66667%;
+}
+
+.col-3 {
+  /* (3/12) x 100% */
+  width: 25%;
+}
+
+.col-4 {
+  /* (4/12) x 100% */
+  width: 33.33333%;
+}
+
+.col-5 {
+  /* (5/12) x 100% */
+  width: 41.666667%;
+}
+
+.col-6 {
+  /* (6/12) x 100% */
+  width: 50%;
+}
+
+.col-7 {
+  /* (7/12) x 100% */
+  width: 58.333333%;
+}
+
+.col-8 {
+  /* (8/12) x 100% */
+  width: 66.6666667%;
+}
+
+.col-9 {
+  /* (9/12) x 100% */
+  width: 75%;
+}
+
+.col-10 {
+  /* (10/12) x 100% */
+  width: 83.333333%;
+}
+
+.col-11 {
+  /* (11/12) x 100% */
+  width: 91.6666%;
+}
+
+.col-12 {
+  /* (12/12) x 100% */
+  width: 100%;
+}
